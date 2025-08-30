@@ -1,0 +1,23 @@
+{
+  "name": "nfc-bridge",
+  "version": "1.0.0",
+  "description": "NFC Bridge Server for UPass Manager",
+  "main": "nfc-server.js",
+  "scripts": {
+    "start": "node nfc-server.js",
+    "dev": "nodemon nfc-server.js",
+    "test": "node test-nfc.js",
+    "check-reader": "node check-reader.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nfc-bridge": "file:",
+    "pcsclite": "^1.0.1",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

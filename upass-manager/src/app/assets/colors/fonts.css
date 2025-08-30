@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'AcherusGrotesque-Regular';
+    src: url('../fonts/acherus-grotesque-regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'AcherusGrotesque-Bold';
+    src: url('../fonts/acherus-grotesque-bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'AcherusGrotesque-Regular', sans-serif;
+  }
+
+  .negative-colors:hover {
+    filter: invert(1);
+  }

@@ -1,0 +1,4 @@
+/node_modules
+/upass-manager/backend-api/node_modules
+/upass-manager/src/cloud/lambda-code.zip
+/upass-manager/src/nfc-bridge/node_modules
